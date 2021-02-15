@@ -2,11 +2,11 @@
   "name": "eightqueens",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "build": "tsc",
     "dev": "nodemon index.ts"
-},
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

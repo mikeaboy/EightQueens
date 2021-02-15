@@ -19,7 +19,7 @@ export default class EightQueen {
                     i = -1
                 }
             }
-            while(lineRecords.length == 8 /*已找到*/|| (lineRecords.length > 0 && i == this.size - 1)/*該排找不到*/){
+            while(lineRecords.length == this.size /*已找到*/|| (lineRecords.length > 0 && i == this.size - 1)/*該排找不到*/){
                 //回上一層繼續往後找
                 i = lineRecords.pop()!!
             }
